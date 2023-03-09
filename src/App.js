@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <img className='dogImg' src={img} alt='Dog'/>
-      <button onClick={onFetch}>fetch</button>
+      <button onClick={onFetch}>Fetch more pups</button>
     </div>
   );
 }
